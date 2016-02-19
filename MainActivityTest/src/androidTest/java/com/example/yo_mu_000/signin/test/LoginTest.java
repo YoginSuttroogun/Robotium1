@@ -45,12 +45,12 @@ public class LoginTest extends ActivityInstrumentationTestCase2 {
 		solo.clickOnView(solo.getView("usernameInput"));
         //Enter the text: 'yogin'
 		solo.clearEditText((android.widget.EditText) solo.getView("usernameInput"));
-		solo.enterText((android.widget.EditText) solo.getView("usernameInput"), "bhoomita");
+		solo.enterText((android.widget.EditText) solo.getView("usernameInput"), "yogin");
         //Click on Empty Text View
 		solo.clickOnView(solo.getView("passwordInput"));
         //Enter the text: 'yo'
 		solo.clearEditText((android.widget.EditText) solo.getView("passwordInput"));
-		solo.enterText((android.widget.EditText) solo.getView("passwordInput"), "bhoom");
+		solo.enterText((android.widget.EditText) solo.getView("passwordInput"), "yog");
         //Click on Sign in
 		solo.clickOnView(solo.getView("signInButton"));
         //Wait for activity: 'com.example.yo_mu_000.signin.Gallery'
